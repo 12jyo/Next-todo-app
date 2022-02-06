@@ -75,6 +75,10 @@ const Home = () => {
     await (await fetch("http://localhost:5000/" + id)).json();
   };
 
+  const doneToggle = async (id) => {
+    await (await fetch("http://localhost:5000/" + id)).json();
+  }
+
   const handleDone = (id) => {
     const _items = items.map((item) => {
       if (item.id === id) {
