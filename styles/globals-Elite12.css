@@ -1,9 +1,0 @@
-html,
-body {
-  height: 100vh;
-  font-family: "Poppins", sans-serif;
-}
-
-.item.done{
-  text-decoration: line-through;
-}
